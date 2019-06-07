@@ -31,6 +31,7 @@ public class LoginTest {
 		driver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Amma2018#");
 		
+		driver.findElement(By.id("Signin")).click();
 	}
 	
 	@AfterSuite
